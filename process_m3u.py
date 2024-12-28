@@ -1,5 +1,6 @@
 import requests
 import logging
+import re
 from pathlib import Path
 
 # 配置日志
@@ -21,14 +22,40 @@ def download_m3u():
         raise
 
 def process_m3u(content):
-    """处理 M3U 内容，替换 RTP 地址"""
+    """处理 M3U 内容，替换 RTP 地址并添加 tvg-id"""
     try:
-        # 替换所有的 rtp:// 为 http://10.109.60.250:4022/
-        processed_content = content.replace('rtp://', 'http://10.109.60.250:4022/udp/')
+        # 将内容按行分割
+        lines = content.split('\n')
+        processed_lines = []
+        rtp_count = 0
+        tvg_count = 0
         
-        # 计算替换次数
-        replacement_count = content.count('rtp://')
-        logging.info(f"Replaced {replacement_count} occurrences of 'rtp://'")
+        for line in lines:
+            if line.startswith('#EXTINF:'):
+                # 查找现有的 tvg-name
+                tvg_name_match = re.search(r'tvg-name="([^"]*)"', line)
+                if tvg_name_match:
+                    tvg_name = tvg_name_match.group(1)
+                    # 检查是否已经有 tvg-id
+                    if 'tvg-id="' not in line:
+                        # 在 tvg-name 后添加 tvg-id
+                        line = line.replace(f'tvg-name="{tvg_name}"', 
+                                         f'tvg-name="{tvg_name}" tvg-id="{tvg_name}"')
+                        tvg_count += 1
+                processed_lines.append(line)
+            elif line.startswith('rtp://'):
+                # 替换 RTP 地址
+                line = line.replace('rtp://', 'http://10.109.60.250:4022/udp/')
+                rtp_count += 1
+                processed_lines.append(line)
+            else:
+                processed_lines.append(line)
+        
+        # 重新组合内容
+        processed_content = '\n'.join(processed_lines)
+        
+        logging.info(f"Replaced {rtp_count} RTP addresses")
+        logging.info(f"Added {tvg_count} tvg-id attributes")
         
         return processed_content
     except Exception as e:

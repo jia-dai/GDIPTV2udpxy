@@ -24,7 +24,7 @@ def process_m3u(content):
     """处理 M3U 内容，替换 RTP 地址"""
     try:
         # 替换所有的 rtp:// 为 http://10.109.60.250:4022/
-        processed_content = content.replace('rtp://', 'http://10.109.60.250:4022/')
+        processed_content = content.replace('rtp://', 'http://10.109.60.250:4022/udp/')
         
         # 计算替换次数
         replacement_count = content.count('rtp://')

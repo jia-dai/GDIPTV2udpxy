@@ -86,28 +86,45 @@ def process_m3u(content: str) -> str:
         lines = content.split('\n')
         result = ["#EXTM3U"]
         
-        for i in range(len(lines)):
+        i = 0
+        while i < len(lines):
             line = lines[i].strip()
             
-            # 跳过无效行
-            if not line or 'genre' in line or line.upper().find('HTTP') == -1:
+            if not line:
+                i += 1
                 continue
-            
-            # 解析频道信息
+                
+            # 处理EXTINF行
             if line.startswith('#EXTINF:'):
+                # 确保还有下一行
+                if i + 1 >= len(lines):
+                    break
+                    
+                url = lines[i + 1].strip()
+                
+                # 检查URL的有效性
+                if not url or (not url.startswith('rtp://') and not url.startswith('http://')):
+                    i += 2
+                    continue
+                
                 try:
-                    channel_info = re.search(r'#EXTINF:-1,(.*)', line).group(1)
-                    url = lines[i + 1].strip()
+                    # 提取频道名称
+                    channel_match = re.search(r'#EXTINF:-1.*,(.+)$', line)
+                    if not channel_match:
+                        i += 2
+                        continue
+                        
+                    channel_name = channel_match.group(1).strip()
                     
                     # 处理RTP地址
                     if url.startswith('rtp://'):
                         url = url.replace('rtp://', 'http://10.109.60.250:4022/udp/')
                     
                     # 获取频道分组
-                    group = get_channel_group(channel_info)
+                    group = get_channel_group(channel_name)
                     
                     # 获取频道ID
-                    channel_id = clean_channel_id(channel_info)
+                    channel_id = clean_channel_id(channel_name)
                     
                     # 构建EPG标识和logo URL
                     tvg_name = channel_id
@@ -115,19 +132,23 @@ def process_m3u(content: str) -> str:
                     
                     # 构建新的EXTINF行
                     new_extinf = (
-                        f'#EXTINF:-1,tvg-id="{tvg_name}" '
+                        f'#EXTINF:-1 tvg-id="{tvg_name}" '
                         f'tvg-name="{tvg_name}" '
                         f'tvg-logo="{logo_url}" '
-                        f'group-title="{group}",'
-                        f'{channel_info}'
+                        f'group-title="{group}",{channel_name}'
                     )
                     
                     result.extend([new_extinf, url])
+                    logging.debug(f"Added channel: {channel_name} ({group})")
                     
                 except Exception as e:
-                    logging.warning(f"Error processing line {i}: {e}")
-                    continue
+                    logging.warning(f"Error processing channel at line {i}: {e}")
+                
+                i += 2  # 跳过URL行
+            else:
+                i += 1
         
+        logging.info(f"Processed {(len(result)-1) // 2} channels")
         return '\n'.join(result)
         
     except Exception as e:
@@ -140,6 +161,11 @@ def save_m3u(content: str, filename='processed.m3u'):
         output_path = Path(filename)
         output_path.write_text(content, encoding='utf-8')
         logging.info(f"Successfully saved processed M3U to {filename}")
+        
+        # 添加文件大小检查
+        file_size = output_path.stat().st_size
+        logging.info(f"Output file size: {file_size} bytes")
+            
     except Exception as e:
         logging.error(f"Failed to save M3U file: {e}")
         raise
@@ -149,6 +175,10 @@ def main():
         # 下载原始文件
         logging.info("Starting M3U processing")
         original_content = download_m3u()
+        
+        # 输出原始内容的基本信息
+        lines = original_content.split('\n')
+        logging.info(f"Downloaded content has {len(lines)} lines")
         
         # 处理内容
         processed_content = process_m3u(original_content)

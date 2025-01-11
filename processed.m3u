@@ -289,7 +289,7 @@ http://10.109.60.250:4022/udp/239.77.0.178:5146
 http://10.109.60.250:4022/udp/239.77.0.36:5146
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="央视",CCTV-7高清
 http://10.109.60.250:4022/udp/239.77.1.159:5146
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="央视",CCTV-7高清
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="央视",CCTV-7高清 (CAVS)
 http://10.109.60.250:4022/udp/239.77.1.167:5146
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="央视",CCTV-7高清测试(CCTV -7军事农业高清)
 http://10.109.60.250:4022/udp/239.77.0.138:5146
@@ -311,7 +311,7 @@ http://10.109.60.250:4022/udp/239.77.0.135:5146
 http://10.109.60.250:4022/udp/239.77.0.39:5146
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="央视",CCTV-10高清
 http://10.109.60.250:4022/udp/239.77.1.113:5146
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="央视",CCTV-10高清
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="央视",CCTV-10高清 (CAVS)
 http://10.109.60.250:4022/udp/239.77.1.169:5146
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="央视",CCTV-10高清测试(CCTV-10科教高清)
 http://10.109.60.250:4022/udp/239.77.0.134:5146
@@ -341,7 +341,7 @@ http://10.109.60.250:4022/udp/239.253.43.196:5146
 http://10.109.60.250:4022/udp/239.77.0.43:5146
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="央视",CCTV-14高清
 http://10.109.60.250:4022/udp/239.77.1.161:5146
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="央视",CCTV-14高清
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="央视",CCTV-14高清 (CAVS)
 http://10.109.60.250:4022/udp/239.77.1.171:5146
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="央视",CCTV-14高清
 http://10.109.60.250:4022/udp/239.77.0.236:5146
@@ -433,7 +433,7 @@ http://10.109.60.250:4022/udp/239.77.0.98:5146
 http://10.109.60.250:4022/udp/239.77.0.50:5146
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.112114.xyz/logo/安徽卫视.png" group-title="卫视",安徽卫视高清
 http://10.109.60.250:4022/udp/239.77.1.92:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.112114.xyz/logo/安徽卫视.png" group-title="卫视",安徽卫视高清
+#EXTINF:-1 tvg-id="安徽卫视高清(CAVS)" tvg-name="安徽卫视高清(CAVS)" tvg-logo="https://epg.112114.xyz/logo/安徽卫视高清(CAVS).png" group-title="卫视",安徽卫视高清 (CAVS)
 http://10.109.60.250:4022/udp/239.77.1.157:5146
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.112114.xyz/logo/安徽卫视.png" group-title="卫视",安徽卫视高清
 http://10.109.60.250:4022/udp/239.77.0.183:5146

@@ -118,7 +118,7 @@ def process_m3u(content: str) -> str:
                     
                     # 处理RTP地址
                     if url.startswith('rtp://'):
-                        url = url.replace('rtp://', 'http://10.109.60.250:4022/udp/')
+                        url = url.replace('rtp://', 'http://192.168.2.2:55555/udp/')
                     
                     # 获取频道分组
                     group = get_channel_group(channel_name)

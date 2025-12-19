@@ -473,7 +473,7 @@ http://192.168.2.2:55555/udp/239.77.0.11:5146
 http://192.168.2.2:55555/udp/239.77.0.60:5146
 #EXTINF:-1 tvg-id="四川卫视(CAVS)" tvg-name="四川卫视(CAVS)" tvg-logo="https://epg.112114.xyz/logo/四川卫视(CAVS).png" group-title="卫视",四川卫视超清 (CAVS)
 http://192.168.2.2:55555/udp/239.77.0.163:5146
-#EXTINF:-1 tvg-id="四川卫视4K(AVS2)" tvg-name="四川卫视4K(AVS2)" tvg-logo="https://epg.112114.xyz/logo/四川卫视4K(AVS2).png" group-title="卫视",四川卫视 4K (AVS2)
+#EXTINF:-1 tvg-id="四川卫视4K" tvg-name="四川卫视4K" tvg-logo="https://epg.112114.xyz/logo/四川卫视4K.png" group-title="卫视",四川卫视 4K
 http://192.168.2.2:55555/udp/239.77.1.38:5146
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.112114.xyz/logo/河南卫视.png" group-title="卫视",河南卫视
 http://192.168.2.2:55555/udp/239.77.0.17:5146
@@ -741,34 +741,30 @@ http://192.168.2.2:55555/udp/239.77.1.184:5146
 http://192.168.2.2:55555/udp/239.77.1.185:5146
 #EXTINF:-1 tvg-id="PPTV4" tvg-name="PPTV4" tvg-logo="https://epg.112114.xyz/logo/PPTV4.png" group-title="其他",PPTV-4
 http://192.168.2.2:55555/udp/239.77.1.186:5146
-#EXTINF:-1 tvg-id="UNKNOWN@.77.1.:(CAVS)" tvg-name="UNKNOWN@.77.1.:(CAVS)" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:(CAVS).png" group-title="其他",Unknown@239.77.1.171:5146 (CAVS)
-http://192.168.2.2:55555/udp/239.77.1.171:5146
+#EXTINF:-1 tvg-id="UNKNOWN@.77.1.:" tvg-name="UNKNOWN@.77.1.:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:.png" group-title="其他",Unknown@239.77.1.124:5146
+http://192.168.2.2:55555/udp/239.77.1.124:5146
 #EXTINF:-1 tvg-id="UNKNOWN@.77.1.:" tvg-name="UNKNOWN@.77.1.:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:.png" group-title="其他",Unknown@239.77.1.175:5146
 http://192.168.2.2:55555/udp/239.77.1.175:5146
-#EXTINF:-1 tvg-id="UNKNOWN@.77.1.:" tvg-name="UNKNOWN@.77.1.:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:.png" group-title="其他",Unknown@239.77.1.215:5146
-http://192.168.2.2:55555/udp/239.77.1.215:5146
-#EXTINF:-1 tvg-id="UNKNOWN@.77.1.:" tvg-name="UNKNOWN@.77.1.:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:.png" group-title="其他",Unknown@239.77.1.219:5146
-http://192.168.2.2:55555/udp/239.77.1.219:5146
-#EXTINF:-1 tvg-id="UNKNOWN@.77.1.:" tvg-name="UNKNOWN@.77.1.:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:.png" group-title="其他",Unknown@239.77.1.222:5146
-http://192.168.2.2:55555/udp/239.77.1.222:5146
-#EXTINF:-1 tvg-id="UNKNOWN@.77.1.:" tvg-name="UNKNOWN@.77.1.:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:.png" group-title="其他",Unknown@239.77.1.229:5146
-http://192.168.2.2:55555/udp/239.77.1.229:5146
-#EXTINF:-1 tvg-id="UNKNOWN@.77.1.:" tvg-name="UNKNOWN@.77.1.:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:.png" group-title="其他",Unknown@239.77.1.234:5146
-http://192.168.2.2:55555/udp/239.77.1.234:5146
 #EXTINF:-1 tvg-id="UNKNOWN@.77.1.:" tvg-name="UNKNOWN@.77.1.:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.:.png" group-title="其他",Unknown@239.77.1.242:5146
 http://192.168.2.2:55555/udp/239.77.1.242:5146
+#EXTINF:-1 tvg-id="UNKNOWN@.77.1.82:" tvg-name="UNKNOWN@.77.1.82:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.82:.png" group-title="其他",Unknown@239.77.1.82:5146
+http://192.168.2.2:55555/udp/239.77.1.82:5146
+#EXTINF:-1 tvg-id="UNKNOWN@.77.1.83:" tvg-name="UNKNOWN@.77.1.83:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.83:.png" group-title="其他",Unknown@239.77.1.83:5146
+http://192.168.2.2:55555/udp/239.77.1.83:5146
+#EXTINF:-1 tvg-id="UNKNOWN@.77.1.86:" tvg-name="UNKNOWN@.77.1.86:" tvg-logo="https://epg.112114.xyz/logo/UNKNOWN@.77.1.86:.png" group-title="其他",Unknown@239.77.1.86:5146
+http://192.168.2.2:55555/udp/239.77.1.86:5146
 #EXTINF:-1 tvg-id="央视精品" tvg-name="央视精品" tvg-logo="https://epg.112114.xyz/logo/央视精品.png" group-title="央视",央视精品高清
 http://192.168.2.2:55555/udp/239.253.43.27:5146
+#EXTINF:-1 tvg-id="广东IPTV广告" tvg-name="广东IPTV广告" tvg-logo="https://epg.112114.xyz/logo/广东IPTV广告.png" group-title="广东",广东IPTV广告
+http://192.168.2.2:55555/udp/239.77.0.193:5146
 #EXTINF:-1 tvg-id="广东IPTV广告" tvg-name="广东IPTV广告" tvg-logo="https://epg.112114.xyz/logo/广东IPTV广告.png" group-title="广东",广东IPTV广告
 http://192.168.2.2:55555/udp/239.77.0.241:5146
 #EXTINF:-1 tvg-id="广东IPTV广告" tvg-name="广东IPTV广告" tvg-logo="https://epg.112114.xyz/logo/广东IPTV广告.png" group-title="广东",广东IPTV广告
 http://192.168.2.2:55555/udp/239.77.0.191:5146
 #EXTINF:-1 tvg-id="广东IPTV广告" tvg-name="广东IPTV广告" tvg-logo="https://epg.112114.xyz/logo/广东IPTV广告.png" group-title="广东",广东IPTV广告
-http://192.168.2.2:55555/udp/239.77.0.193:5146
+http://192.168.2.2:55555/udp/239.77.0.190:5146
 #EXTINF:-1 tvg-id="广东IPTV广告" tvg-name="广东IPTV广告" tvg-logo="https://epg.112114.xyz/logo/广东IPTV广告.png" group-title="广东",广东IPTV广告
 http://192.168.2.2:55555/udp/239.77.0.240:5146
-#EXTINF:-1 tvg-id="广东IPTV广告" tvg-name="广东IPTV广告" tvg-logo="https://epg.112114.xyz/logo/广东IPTV广告.png" group-title="广东",广东IPTV广告
-http://192.168.2.2:55555/udp/239.77.0.190:5146
 #EXTINF:-1 tvg-id="百视通体育直播室1" tvg-name="百视通体育直播室1" tvg-logo="https://epg.112114.xyz/logo/百视通体育直播室1.png" group-title="其他",百视通体育直播室1
 http://192.168.2.2:55555/udp/239.253.43.115:5146
 #EXTINF:-1 tvg-id="百视通体育直播室4" tvg-name="百视通体育直播室4" tvg-logo="https://epg.112114.xyz/logo/百视通体育直播室4.png" group-title="其他",百视通体育直播室4

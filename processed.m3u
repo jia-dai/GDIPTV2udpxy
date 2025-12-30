@@ -93,11 +93,11 @@ http://192.168.2.2:55555/udp/239.77.0.67:5146
 http://192.168.2.2:55555/udp/239.77.0.130:5146
 #EXTINF:-1 tvg-id="深圳卫视25P4K" tvg-name="深圳卫视25P4K" tvg-logo="https://epg.112114.xyz/logo/深圳卫视25P4K.png" group-title="卫视",深圳卫视 25p 4K
 http://192.168.2.2:55555/udp/239.77.1.14:5146
-#EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视4K" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K.png" group-title="卫视",深圳卫视 4K
+#EXTINF:-1 tvg-id="深圳卫视4K(AVS2)" tvg-name="深圳卫视4K(AVS2)" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K(AVS2).png" group-title="卫视",深圳卫视 4K (AVS2)
 http://192.168.2.2:55555/udp/239.77.1.24:5146
 #EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视4K" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K.png" group-title="卫视",深圳卫视 4K
 http://192.168.2.2:55555/udp/239.77.1.191:5146
-#EXTINF:-1 tvg-id="深圳卫视4K(AVS2)" tvg-name="深圳卫视4K(AVS2)" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K(AVS2).png" group-title="卫视",深圳卫视 4K (AVS2)
+#EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视4K" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K.png" group-title="卫视",深圳卫视 4K
 http://192.168.2.2:55555/udp/239.77.1.194:5146
 #EXTINF:-1 tvg-id="深圳都市频道" tvg-name="深圳都市频道" tvg-logo="https://epg.112114.xyz/logo/深圳都市频道.png" group-title="其他",深圳都市频道高清
 http://192.168.2.2:55555/udp/239.77.1.176:5146
@@ -269,7 +269,7 @@ http://192.168.2.2:55555/udp/239.77.0.181:5146
 http://192.168.2.2:55555/udp/239.77.0.38:5146
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="央视",CCTV-9高清
 http://192.168.2.2:55555/udp/239.77.1.160:5146
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="央视",CCTV-9高清 (CAVS)
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="央视",CCTV-9高清
 http://192.168.2.2:55555/udp/239.77.1.168:5146
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="央视",CCTV-9高清测试
 http://192.168.2.2:55555/udp/239.77.0.135:5146
@@ -291,7 +291,7 @@ http://192.168.2.2:55555/udp/239.77.1.238:5146
 http://192.168.2.2:55555/udp/239.77.0.41:5146
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="央视",CCTV-12高清
 http://192.168.2.2:55555/udp/239.77.1.109:5146
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="央视",CCTV-12高清
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="央视",CCTV-12高清 (CAVS)
 http://192.168.2.2:55555/udp/239.77.1.170:5146
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="央视",CCTV-12高清 (CAVS)
 http://192.168.2.2:55555/udp/239.77.1.190:5146
@@ -387,7 +387,7 @@ http://192.168.2.2:55555/udp/239.77.1.149:5146
 http://192.168.2.2:55555/udp/239.77.0.57:5146
 #EXTINF:-1 tvg-id="江苏卫视(CAVS)" tvg-name="江苏卫视(CAVS)" tvg-logo="https://epg.112114.xyz/logo/江苏卫视(CAVS).png" group-title="卫视",江苏卫视超清 (CAVS)
 http://192.168.2.2:55555/udp/239.77.0.126:5146
-#EXTINF:-1 tvg-id="江苏卫视4K(AVS2)" tvg-name="江苏卫视4K(AVS2)" tvg-logo="https://epg.112114.xyz/logo/江苏卫视4K(AVS2).png" group-title="卫视",江苏卫视 4K (AVS2)
+#EXTINF:-1 tvg-id="江苏卫视4K" tvg-name="江苏卫视4K" tvg-logo="https://epg.112114.xyz/logo/江苏卫视4K.png" group-title="卫视",江苏卫视 4K
 http://192.168.2.2:55555/udp/239.77.1.36:5146
 #EXTINF:-1 tvg-id="东方卫视时移专用(东方卫视)" tvg-name="东方卫视时移专用(东方卫视)" tvg-logo="https://epg.112114.xyz/logo/东方卫视时移专用(东方卫视).png" group-title="卫视",东方卫视时移专用(东方卫视)
 http://192.168.2.2:55555/udp/239.77.0.98:5146
@@ -437,13 +437,13 @@ http://192.168.2.2:55555/udp/239.77.0.94:5146
 http://192.168.2.2:55555/udp/239.77.0.8:5146
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.112114.xyz/logo/山东卫视.png" group-title="卫视",山东卫视高清
 http://192.168.2.2:55555/udp/239.77.1.142:5146
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.112114.xyz/logo/山东卫视.png" group-title="卫视",山东卫视高清
+#EXTINF:-1 tvg-id="山东卫视高清(CAVS)" tvg-name="山东卫视高清(CAVS)" tvg-logo="https://epg.112114.xyz/logo/山东卫视高清(CAVS).png" group-title="卫视",山东卫视高清 (CAVS)
 http://192.168.2.2:55555/udp/239.77.1.153:5146
 #EXTINF:-1 tvg-id="山东卫视4K" tvg-name="山东卫视4K" tvg-logo="https://epg.112114.xyz/logo/山东卫视4K.png" group-title="卫视",山东卫视4k超高清
 http://192.168.2.2:55555/udp/239.77.0.61:5146
 #EXTINF:-1 tvg-id="山东卫视(CAVS)" tvg-name="山东卫视(CAVS)" tvg-logo="https://epg.112114.xyz/logo/山东卫视(CAVS).png" group-title="卫视",山东卫视超清 (CAVS)
 http://192.168.2.2:55555/udp/239.77.0.132:5146
-#EXTINF:-1 tvg-id="山东卫视4K" tvg-name="山东卫视4K" tvg-logo="https://epg.112114.xyz/logo/山东卫视4K.png" group-title="卫视",山东卫视 4K
+#EXTINF:-1 tvg-id="山东卫视4K(AVS2)" tvg-name="山东卫视4K(AVS2)" tvg-logo="https://epg.112114.xyz/logo/山东卫视4K(AVS2).png" group-title="卫视",山东卫视 4K (AVS2)
 http://192.168.2.2:55555/udp/239.77.1.37:5146
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.112114.xyz/logo/江西卫视.png" group-title="卫视",江西卫视
 http://192.168.2.2:55555/udp/239.77.0.149:5146

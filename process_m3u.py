@@ -12,7 +12,7 @@ logging.basicConfig(
 
 def download_m3u():
     """下载原始 M3U 文件"""
-    url = "https://raw.githubusercontent.com/Tzwcard/ChinaTelecom-GuangdongIPTV-RTP-List/refs/heads/master/GuangdongIPTV_rtp_all.m3u8"
+    url = "https://raw.githubusercontent.com/Tzwcard/ChinaTelecom-GuangdongIPTV-RTP-List/refs/heads/master/GuangdongIPTV_rtp_all.m3u"
     try:
         response = requests.get(url, timeout=30)
         response.raise_for_status()

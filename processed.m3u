@@ -93,11 +93,11 @@ http://192.168.2.2:55555/udp/239.77.0.67:5146
 http://192.168.2.2:55555/udp/239.77.0.130:5146
 #EXTINF:-1 tvg-id="深圳卫视25P4K" tvg-name="深圳卫视25P4K" tvg-logo="https://epg.112114.xyz/logo/深圳卫视25P4K.png" group-title="卫视高清",深圳卫视 25p 4K
 http://192.168.2.2:55555/udp/239.77.1.14:5146
-#EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视4K" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K.png" group-title="卫视高清",深圳卫视 4K
+#EXTINF:-1 tvg-id="深圳卫视4K(AVS2)" tvg-name="深圳卫视4K(AVS2)" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K(AVS2).png" group-title="卫视高清",深圳卫视 4K (AVS2)
 http://192.168.2.2:55555/udp/239.77.1.24:5146
 #EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视4K" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K.png" group-title="卫视高清",深圳卫视 4K
 http://192.168.2.2:55555/udp/239.77.1.191:5146
-#EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视4K" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K.png" group-title="卫视高清",深圳卫视 4K
+#EXTINF:-1 tvg-id="深圳卫视4K(AVS2)" tvg-name="深圳卫视4K(AVS2)" tvg-logo="https://epg.112114.xyz/logo/深圳卫视4K(AVS2).png" group-title="卫视高清",深圳卫视 4K (AVS2)
 http://192.168.2.2:55555/udp/239.77.1.194:5146
 #EXTINF:-1 tvg-id="深圳都市频道" tvg-name="深圳都市频道" tvg-logo="https://epg.112114.xyz/logo/深圳都市频道.png" group-title="其他",深圳都市频道高清
 http://192.168.2.2:55555/udp/239.77.1.176:5146
